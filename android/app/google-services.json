@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "481975212222",
+    "firebase_url": "https://climb-app-9d970.firebaseio.com",
+    "project_id": "climb-app-9d970",
+    "storage_bucket": "climb-app-9d970.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481975212222:android:b87b7b08b81f7f0e83e6ef",
+        "android_client_info": {
+          "package_name": "com.shaqApps.climbAppFlutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481975212222-1vmmqrt54e1asutd4n6ajr8p0hj7dhv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN9YGtyMoasFlRI7HN6HaVQ6Mvy-Racuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481975212222-1vmmqrt54e1asutd4n6ajr8p0hj7dhv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
