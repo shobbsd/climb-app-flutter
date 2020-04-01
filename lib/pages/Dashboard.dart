@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 class Dashboard extends StatefulWidget {
   final DocumentSnapshot user;
 
-  int currentIndex = 1;
+  int currentIndex = 0;
 
   Dashboard({Key key, @required this.user}) : super(key: key);
 
