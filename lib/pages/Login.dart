@@ -31,9 +31,10 @@ class _LoginState extends State<Login> {
         final userProfile =
             await _firestore.collection('users').document(user.uid).get();
 
-        Navigator.push(
+        Navigator.pushAndRemoveUntil(
           context,
           MaterialPageRoute(builder: (context) => Dashboard(user: userProfile)),
+          (Route<dynamic> route) => false,
         );
       } catch (err) {
         print(err);
@@ -55,7 +56,9 @@ class _LoginState extends State<Login> {
               Padding(
                 padding: EdgeInsets.all(8),
                 child: TextFormField(
+                  enableSuggestions: true,
                   textInputAction: TextInputAction.next,
+                  keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
                     prefixIcon: Icon(Icons.email),
                     labelText: 'Email',

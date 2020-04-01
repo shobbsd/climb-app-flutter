@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>481975212222-rh4jultktbrl9866k4drqntgu49f4k87.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.481975212222-rh4jultktbrl9866k4drqntgu49f4k87</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAw9ZHQDI2oCtV4hOg1mqvtOmuihsYkgKA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>481975212222</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shaqApps.climbAppFlutter</string>
+	<key>PROJECT_ID</key>
+	<string>climb-app-9d970</string>
+	<key>STORAGE_BUCKET</key>
+	<string>climb-app-9d970.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:481975212222:ios:dfa619a6b5c4887f83e6ef</string>
+	<key>DATABASE_URL</key>
+	<string>https://climb-app-9d970.firebaseio.com</string>
+</dict>
+</plist>

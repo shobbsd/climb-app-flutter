@@ -41,7 +41,8 @@ class _SignUpState extends State<SignUp> {
     final userData = {
       'firstName': formData['firstName'],
       'lastName': formData['lastName'],
-      'email': formData['email']
+      'email': formData['email'],
+      "uid": userUid
     };
     try {
       await _store.collection('users').document(userUid).setData(userData);
