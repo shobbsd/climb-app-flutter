@@ -63,9 +63,11 @@ class _SignUpState extends State<SignUp> {
       try {
         final userUid = await _handleSignUp(email, password);
         final userProfile = await _handleCreateUser(userUid);
-        Navigator.push(
+
+        Navigator.pushAndRemoveUntil(
           context,
           MaterialPageRoute(builder: (context) => Dashboard(user: userProfile)),
+          (Route<dynamic> route) => false,
         );
       } catch (Err) {
         print(Err);
@@ -135,6 +137,7 @@ class _SignUpState extends State<SignUp> {
               ),
               TextFormField(
                 focusNode: focusEmail,
+                keyboardType: TextInputType.emailAddress,
                 decoration: InputDecoration(
                     labelText: "Email Address",
                     border: OutlineInputBorder(),
